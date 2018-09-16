@@ -1,5 +1,3 @@
-print('Hello World')
-
 myString = 'abcdefghi'
 print myString[3:6]
 #Result: def
@@ -28,3 +26,10 @@ print subString[:3]
 reverseStr = 'royden'
 print reverseStr[::-1]
 
+capitalizeStr = 'capitalize me'
+print capitalizeStr.upper()
+#Result: CAPITALIZE ME
+
+splitStr = 'split me'
+print splitStr.split()
+#Result: Splits into an array: ['split', 'me']

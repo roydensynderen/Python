@@ -16,6 +16,6 @@ print(result)
 print('The result was {r:1.2f}'.format(r=result))
 
 #Another way to do it; released in Python 3.6
-name = "Jose"
-print(f'Hello, his name is {name}')
+# name = "Jose"
+# print(f'Hello, his name is {name}')
 

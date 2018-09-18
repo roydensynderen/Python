@@ -73,3 +73,14 @@ mylist2 = ['a','b','c']
 zip(mylist1, mylist2)
 for item in zip(mylist1, mylist2):
     print(item)
+
+#nested for-loops
+newlist = []
+for x in [2,4,6]:
+    for y in [1,10,1000]:
+        newlist.append(x*y)
+print newlist
+
+#same as above
+newlist = [x*y for x in [2,4,6] for y in [1,10,1000]] 
+print newlist

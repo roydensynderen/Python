@@ -25,3 +25,20 @@ print alphabet_list
 num_list.sort()
 my_sorted_num_list = num_list
 print num_list
+
+my_string = 'hello'
+my_list = []
+for letter in my_string:
+    my_list.append(letter)
+print my_list
+
+#same as above
+my_list = [letter for letter in my_string]
+print my_list
+
+celcius = [0, 10, 20, 34.5]
+fahrenheit = [( (9/5)*temp + 32 ) for temp in celcius] 
+print fahrenheit
+
+results = [x if x%2 == 0 else 'ODD' for x in range(0, 9)]
+print results
